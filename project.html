@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transactions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bank Management System</h1>
+        <h2>Deposit Money</h2>
+        <form id="deposit-form">
+            <input type="number" id="account-id-deposit" placeholder="Account ID" required>
+            <input type="number" id="deposit-amount" placeholder="Amount" required>
+            <button type="submit">Deposit</button>
+        </form>
+        <div id="deposit-message"></div>
+
+        <h2>Withdraw Money</h2>
+        <form id="withdraw-form">
+            <input type="number" id="account-id-withdraw" placeholder="Account ID" required>
+            <input type="number" id="withdraw-amount" placeholder="Amount" required>
+            <button type="submit">Withdraw</button>
+        </form>
+        <div id="withdraw-message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
